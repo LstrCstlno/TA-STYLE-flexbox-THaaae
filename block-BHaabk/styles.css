@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+/* clearfix */
+
+.clearfix:before , .clearfix:after 
+{
+content: "";
+display: table;
+}
+
+.clearfix:after
+{
+clear: both;
+}
+
+/* container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* my styles */
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+header{
+    color:rgb(112, 163, 64);
+    background-color: rgba(212, 209, 32, 0.67);
+    height: 150px;
+    line-height: 150px;
+}
+
+.box{
+    display: flex;
+    justify-content:space-between;
+    vertical-align: middle;
+
+}
+
+h1{
+    font-size: 36px;
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 10px;
+    color: rgb(112, 163, 64);
+}
+
+main{
+    background-color: cornsilk;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.artimg img{ 
+    width: 600px;
+    border-radius: 5px;
+}
+
+.article{ 
+    width: 40%;
+}
+
+.article h2{
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        color: brown;
+}
+
+.container div{
+    padding: 20px 0;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80vh;
+    align-content: space-between;
+
+}
+
+.galimg{
+    width: 30%;
+}
+
+.sec{
+    height: 90vh;
+}
+
+footer{
+    color:rgb(112, 163, 64);
+    background-color: rgba(212, 209, 32, 0.67);
+    height: 80px;
+    line-height: 80px;
+}
+
+.end {
+    text-align: center;
+    font-size: 27px;
+}
