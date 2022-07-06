@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My styles */
+
+/* Container */
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* body */
+body{
+font-family:'Roboto', sans-serif;
+box-sizing: border-box;
+}
+
+/* Header */
+header{
+    background-color: #222946;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items:center
+}
+
+.head{
+    padding: 15px 0;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        margin-left: 40px;
+        vertical-align: 8px;
+        padding-right: 20px;
+}
+
+
+.nav img{
+    width: 30px;
+}
+
+/* main */
+
+/* aside */
+.content{
+    margin: 40px 0;
+}
+
+.col1{
+    width: 35% ;
+    height: 120vh;
+    background-color: #a3caeb;
+    border-radius: 20px;
+}
+
+.help{
+    padding: 15px 35px;
+}
+
+.side-bar {
+    margin: 40px 0;
+}
+
+
+
+.help .side-bar{
+    padding: 0 20px;
+}
+
+.help .article{
+    padding: 20px;
+    border: 3.5px solid #ed7f3f;
+    border-radius: 8px;
+}
+
+.help .side-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.help .article a{
+    color: #ed7f3f;
+}
+
+.help .side-bar img{
+    padding-right: 10px;
+}
+
+.log-btn{
+    width: 350px;
+    margin: 340px 55px;
+    background-color: #f3f8fe;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.log-btn img{
+    padding-right: 10px;
+}
+
+.log-btn a{
+    text-decoration:none ;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+
+
+/* article */
+.col2{
+    width: 60%;
+    height: 120vh;
+    background-color: #f3f8fe;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+
+.art-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.art-img img{
+    padding-top: 25px;
+}
+
+h1{
+    margin: 30px 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.para{
+    padding: 0 20px;
+    font-size: 19px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+
+.para p{
+    padding-bottom: 15px;
+}
+
+span{
+    color:#f3f8fe;
+}
+
+.read-btn a{
+    color: white;
+    background-color: #37b667;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 60px;
+    border-radius: 8px;
+}
+.read-btn{
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer{
+    background-color:#222946;
+}
+
+.watermark{
+    font-size: 24px;
+    color: #b6bbd6;
+}
+
+
+.footer{
+    padding: 45px 0;
+    height: auto;
+}
+
+.social a{
+    color: #222946;
+    background-color: #b6bbd6;
+    padding: 4px 4px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+#fb{
+    padding: 4px 7px;
+}
